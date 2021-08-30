@@ -16,7 +16,7 @@ public class CF_Game {
 		Gamernumber = input.textlnt();
 		
 		swich(Gamernumber){
-			case 1:
+			case :
 				if(computernumber == 1{
 					winner = "same";
 					loser = "same";
