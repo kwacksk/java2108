@@ -8,7 +8,7 @@ public class CF_Game {
 		Scanner input = new Scanner(System.in); 
 		//컴퓨터가 내는 수, 내는 수를 기억하기 위한 변수를 각각 선언한다.
 		int computernumber, Gamernumber;
-		string winnder="", losee="";
+		string winnder="", loser="";
 		//컴퓨터의 수를 1~3 숫자 중 하나를 임의로 결정한다.
 		computernumber = (int)(Math.random()*10)%3 + 1;
 		System.out.println("1=가위,2=바위, 3=보  중 하나를 선택하세요" );
@@ -34,6 +34,7 @@ public class CF_Game {
 					
 		}
 		System.out.println("winner : %s, loser : %s\n",winner,loser);
+		System.out.println("gamer : %d, compuer :%d\n"),gamer.computer;
 		
 		
 	}
